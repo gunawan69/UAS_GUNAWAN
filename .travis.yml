@@ -9,5 +9,15 @@ env:
     - 'FTP_PASS=gunawan098'
 
 script:
-    - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/praktek-4d'"
-    - "curl -T coba.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4d/"
+    #- "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/praktek-4d'"
+    #- "curl -T coba.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4d/"
+    - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/Tugas_Uts'"
+    - "curl -T aksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T delete.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T konek.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T list.png -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T phb.jpg -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T siswa.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T tambah.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"

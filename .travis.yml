@@ -13,7 +13,7 @@ script:
     #- "curl -T coba.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/praktek-4d/"
     - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/Tugas_Uts'"
     - "curl -T aksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
-    - "curl -T delete.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
+    - "curl -T delet.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
     - "curl -T edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
     - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"
     - "curl -T konek.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/Tugas_Uts/"

@@ -7,6 +7,7 @@ include('konek.php');
 <h2><color="red">Nama:Gunawan Raharjo</h2>
 <h2>Nim:16090035</h2>
 <h2>kelas:4D</h2>
+<h2>Tugas/Project:UAS</h2>
 <h1><center>Pengolahan Data Mahasiswa</center></h1><br><br></br>
 
 

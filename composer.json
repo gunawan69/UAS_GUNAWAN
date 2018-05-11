@@ -1,0 +1,12 @@
+{
+    "name": "gunawandev/UTS",
+    "authors": [
+        { 
+            "name": "gunawan",
+            "email": "gunawanr14@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
